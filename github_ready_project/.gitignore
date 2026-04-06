@@ -1,0 +1,38 @@
+# Cordova/Ionic
+platforms/
+plugins/
+node_modules/
+*.log
+*.tmp
+*.pid
+.DS_Store
+Thumbs.db
+
+# Android
+*.apk
+*.ap_
+*.dex
+*.class
+bin/
+gen/
+out/
+build/
+
+# iOS
+*.ipa
+*.dSYM.zip
+*.mobileprovision
+*.xcuserstate
+*.xcworkspace
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

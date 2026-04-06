@@ -1,0 +1,44 @@
+{
+  "name": "christmas-game",
+  "displayName": "圣诞老人过悬崖",
+  "version": "1.0.0",
+  "description": "HTML5圣诞老人过悬崖小游戏",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cordova build android",
+    "prepare": "cordova prepare"
+  },
+  "keywords": [
+    "game",
+    "html5",
+    "christmas",
+    "cordova"
+  ],
+  "author": "Christmas Game Team",
+  "license": "MIT",
+  "dependencies": {
+    "cordova-android": "^15.0.0"
+  },
+  "devDependencies": {
+    "cordova": "^13.0.0"
+  },
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {}
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/christmas-game.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/christmas-game/issues"
+  },
+  "homepage": "https://github.com/username/christmas-game#readme"
+}

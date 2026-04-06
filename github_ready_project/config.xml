@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.christmasgame" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>圣诞老人过悬崖</name>
+    <description>
+        HTML5圣诞老人过悬崖小游戏
+    </description>
+    <author email="support@example.com" href="https://example.com">
+        Christmas Game Team
+    </author>
+    <content src="index.html" />
+    
+    <!-- Android平台配置 -->
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon src="img/logo.png" />
+        <splash src="img/logo.png" />
+    </platform>
+    
+    <!-- 权限 -->
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    
+    <!-- 偏好设置 -->
+    <preference name="orientation" value="landscape" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="android-minSdkVersion" value="21" />
+    <preference name="android-targetSdkVersion" value="33" />
+    
+    <!-- 图标 -->
+    <icon src="img/logo.png" />
+    
+    <!-- 启动画面 -->
+    <splash src="img/logo.png" />
+</widget>
